@@ -1,0 +1,12 @@
+
+# Exclude .md, .sql, .xlsx files
+*.md
+*.sql
+*.xlsx
+
+# Exclude app-config.php specifically
+application/config/app-config.php
+
+# Exclude all files in application/logs but keep the folder
+application/logs/*
+!application/logs/
